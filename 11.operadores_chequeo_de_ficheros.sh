@@ -12,7 +12,7 @@ DATE=$(date +%d-%m-%y)
 if [ -f $FILENAME ];#-f comprueba que exista y que sea un fichero normal
 then
     echo "Existe el fichero"
-    cp $FILENAME "$FILENAME.bak_$DATE"
+    cp $FILENAME "$FILENAME.back_$DATE"
 else
     echo "No existe el fichero"
     exit
